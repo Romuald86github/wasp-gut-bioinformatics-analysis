@@ -75,6 +75,5 @@ conda create -n env
    ```bash
    jupyter notebook
 
-update 
-copy the code in the script taxonomy_and_ASVs.py and change data paths to the relevant paths on your local machine
-run the code in your jupyter notebook interface. 
+
+# II - 
