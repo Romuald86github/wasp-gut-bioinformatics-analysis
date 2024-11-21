@@ -47,9 +47,9 @@ conda create -n env
 9. run the script
    ```bash
    python tax_asv_merg.py \
-/path_to_your/table_ASVs.tsv \
-"path_to_your/Final taxonomy .csv" \
-/path_to_your/wasp_gut_results.tsv
+   /path_to_your/table_ASVs.tsv \
+  "path_to_your/Final taxonomy .csv" \
+   /path_to_your/wasp_gut_results.tsv
 
 
 ## 2. extracting the samples IDs from the cudadapt folder
@@ -57,17 +57,17 @@ conda create -n env
 9. run the script
     ```bash
     python sample_IDs.py \
-/path/to/new/cutadapt/folder \
-/path/to/new/output/sample_origin_mapping_cleaned.tsv
+    /path/to/new/cutadapt/folder \
+    /path/to/new/output/sample_origin_mapping_cleaned.tsv
 
 ## 3. obtain the taxonomy data mapped to their sample (gut) IDs 
 
 10. run the script
     ```bash
     python taxonomy_with_IDs.py \
-/path/to/wasp_gut_results.tsv \
-/path/to/sample_origin_mapping_cleaned.tsv \
-/path/to/wasp_gut_results_with_origins.tsv
+    /path/to/wasp_gut_results.tsv \
+    /path/to/sample_origin_mapping_cleaned.tsv \
+    /path/to/wasp_gut_results_with_origins.tsv
 
 
 
