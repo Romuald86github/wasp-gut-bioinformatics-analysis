@@ -45,7 +45,8 @@ conda create -n env
    ```bash
    cd 'data preparation'
 9. run the script
-   ```python tax_asv_merg.py
+   ```bash
+   python tax_asv_merg.py
 
 
 ## 2. extracting the samples IDs from the cudadapt folder
