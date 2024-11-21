@@ -33,12 +33,18 @@ conda create -n env
    ```bash
    conda install pip
    
-4. install jupyter notebook with ```pip install jupyter```
-5. install the python bioinformatics package ```pip install scikit-bio```
-6. move to data preparation
-   ```
+4. install jupyter notebook with
+   ```bash
+   pip install jupyter
+   
+6. install the python bioinformatics package
+   ```bash
+   pip install scikit-bio
+   
+8. move to data preparation
+   ```bash
    cd 'data preparation'
-7. run the script
+9. run the script
    ```python tax_asv_merg.py
 
 
