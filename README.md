@@ -46,24 +46,35 @@ conda create -n env
    cd 'data preparation'
 9. run the script
    ```bash
-   python tax_asv_merg.py
+   python tax_asv_merg.py \
+/path_to_your/table_ASVs.tsv \
+"path_to_your/Final taxonomy .csv" \
+/path_to_your/wasp_gut_results.tsv
 
 
 ## 2. extracting the samples IDs from the cudadapt folder
 
 9. run the script
     ```bash
-    sample_IDs.py
+    python sample_IDs.py \
+/path/to/new/cutadapt/folder \
+/path/to/new/output/sample_origin_mapping_cleaned.tsv
 
 ## 3. obtain the taxonomy data mapped to their sample (gut) IDs 
 
 10. run the script
     ```bash
-    taxonomy_with_IDs.py
+    python taxonomy_with_IDs.py \
+/path/to/wasp_gut_results.tsv \
+/path/to/sample_origin_mapping_cleaned.tsv \
+/path/to/wasp_gut_results_with_origins.tsv
 
 
 
-9. open the jupyter notebook interface by running ```jupyter notebook```
+9. open the jupyter notebook interface by running 
+   ```bash
+   jupyter notebook
+
 update 
 copy the code in the script taxonomy_and_ASVs.py and change data paths to the relevant paths on your local machine
 run the code in your jupyter notebook interface. 
