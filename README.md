@@ -76,22 +76,21 @@ conda create -n env
 11. run the script
     ```bash
     python metadata.py \
-    /path/to/wasp_gut_results.tsv \
-    /path/to/sample_origin_mapping_cleaned.tsv \
+    /path/to/metadata.tsv \
     /path/to/wasp_gut_results_with_origins.tsv
 
 
 
+## filtering out taxa detected with < 98% similraity
 
+12. This was done using filter function in Excel (on wasp_gut_results_with_origins.tsv)
 
 
 11. open the jupyter notebook interface by running 
    ```bash
    jupyter notebook
 
-
-
-12. 
+ 
 
 
 # II - 
