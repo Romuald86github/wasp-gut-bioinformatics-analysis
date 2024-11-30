@@ -48,9 +48,9 @@ conda create -n env
    ```bash
    python tax_asv_merg.py \
    /path_to_your/table_ASVs.tsv \
-  "path_to_your/Final taxonomy .csv" \
+   "path_to_your/Final taxonomy .csv" \
    /path_to_your/wasp_gut_results.tsv
-   ```
+  
 
 
 ## 2. extracting the samples IDs from the cudadapt folder
