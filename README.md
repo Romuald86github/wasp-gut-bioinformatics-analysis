@@ -86,11 +86,15 @@ conda create -n env
 12. This was done using filter function in Excel (on wasp_gut_results_with_origins.tsv)
 
 
-11. open the jupyter notebook interface by running 
+11. open the jupyter notebook interface by running () 
    ```bash
    jupyter notebook
 
  
 
 
-# II - 
+# II - analysis (to be done within juoyter notebook)
+
+1. plottinh accummulation curves
+
+
